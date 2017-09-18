@@ -23,7 +23,7 @@ client.registry
 
 client.on('ready', () => {
     console.log('Logged in!');
-    client.user.setGame('Best Waifu');
+    client.user.setGame('//Your game here');
 });
 
 client.login('//Bot Login token goes here')
