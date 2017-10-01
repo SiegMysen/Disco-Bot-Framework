@@ -32,7 +32,7 @@ module.exports = class SayCommand extends Command {
         const { text } = args;
 
         if (message.author.id == 198288906280632320) {
-            message.reply('Goshujin, I shall play whatever you like!');
+            message.reply('Response message goes here.');
             //await client.user.setGame(text);
         }
         else {
